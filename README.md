@@ -32,6 +32,5 @@ If you happen to use this code please cite our paper:
 
 Schuld, M., Fingerhuth, M., & Petruccione, F. (2017). Implementing a distance-based classifier with a quantum interference circuit. EPL (Europhysics Letters), 119(6), 60002.
 
---------------------------------------------------------------------------------------------------
 
 *The code is published open-source under a standard MIT License. Feel free to download, modify, use and multiply!*
