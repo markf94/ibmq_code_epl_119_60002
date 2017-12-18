@@ -1,6 +1,10 @@
-include "qelib1.inc";
+// This code performs a distance-based classification
+// of the Iris flower sample #36. Expected class: 0.
+// This code is written for the ibmqx2 (bowtie) device with 5 qubits.
 
-//this code is written for the ibmqx2 device
+// written by Mark Fingerhuth, 2016.
+
+include "qelib1.inc";
 
 // define 5 quantum and classical registers
 qreg q[5];
@@ -139,7 +143,7 @@ cx q[3],q[2];
 
 barrier q;
 
-//flip the class label
+//flip the class label for training vector #2
 cx q[1],q[2];
 
 barrier q;
