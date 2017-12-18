@@ -26,26 +26,9 @@ This repository contains the following two files:
 *x1_class0_classification.qasm*
 > This file implements the classification of the input vector x'' as discussed in the EPL publication.
 
+
 If you happen to use this code please cite our paper:
 
-@article{qdbcl,
-
-  author={M. Schuld and M. Fingerhuth and F. Petruccione},
-  
-  title={Implementing a distance-based classifier with a quantum interference circuit},
-  
-  journal={EPL (Europhysics Letters)},
-  
-  volume={119},
-  
-  number={6},
-  
-  pages={60002},
-  
-  url={http://stacks.iop.org/0295-5075/119/i=6/a=60002},
-  
-  year={2017},
-  
- }
+Schuld, M., Fingerhuth, M., & Petruccione, F. (2017). Implementing a distance-based classifier with a quantum interference circuit. EPL (Europhysics Letters), 119(6), 60002.
 
 *The code is published open-source under a standard MIT License. Feel free to download, modify, use and multiply!*
