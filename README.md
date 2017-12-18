@@ -21,10 +21,10 @@ NOTE: These QASM files were specifically written for the ibmqx2 bowtie chip with
 This repository contains the following two files:
 
 *x0_class0_classification.qasm*
-> This file implements the classification of the input vector x' as discussed in the EPL publication.
+`This file implements the classification of the input vector x' as discussed in the EPL publication.`
 
 *x1_class0_classification.qasm*
-> This file implements the classification of the input vector x'' as discussed in the EPL publication.
+`This file implements the classification of the input vector x'' as discussed in the EPL publication.`
 
 --------------------------------------------------------------------------------------------------
 
