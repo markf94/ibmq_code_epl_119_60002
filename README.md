@@ -14,7 +14,7 @@ https://arxiv.org/pdf/1703.10793.pdf
 
 Update Nov. 2018: I've rewritten the old QASM code in Python 3.7 and the newest Qiskit.
 
-The file `qiskit_distance_based_classifier.py` contains the `DistanceBasedClassifier` class which perform the classification
+The file `qiskit_distance_based_classifier.py` contains the `DistanceBasedClassifier` class which performs the classification
 of the two Iris flower datapoints `x'` and `x''` that were used in the original publication.
 
 You can run the code with the following command:
@@ -45,6 +45,20 @@ The `old_qasm_files` directory contains the following two files:
 If you happen to use this code please cite our paper:
 
 Schuld, M., Fingerhuth, M., & Petruccione, F. (2017). Implementing a distance-based classifier with a quantum interference circuit. EPL (Europhysics Letters), 119(6), 60002.
+
+bibTex:
+```
+@article{schuld2017implementing,
+  title={Implementing a distance-based classifier with a quantum interference circuit},
+  author={Schuld, Maria and Fingerhuth, Mark and Petruccione, Francesco},
+  journal={EPL (Europhysics Letters)},
+  volume={119},
+  number={6},
+  pages={60002},
+  year={2017},
+  publisher={IOP Publishing}
+}
+```
 
 
 *The code is published open-source under a standard MIT License. Feel free to download, modify, use and multiply!*
