@@ -23,7 +23,7 @@ You can run the code with the following command:
 $ python3 qiskit_distance_based_classifier.py
 ```
 
-The printed information should be self-explanatory. Note, that the simulation is performed with the new IBM Aer QASM simulator with realistic noise.
+The printed information should be self-explanatory. Note, that the simulation is performed with the new IBM Aer QASM simulator.
 
 For everyone who wants to dive deeper, the subdirectory `old_qasm_files` contains the old files written in quantum assembly language (QASM), which is the OG programming language used by the online interface
 of the IBM Quantum Experience. In order to execute these files you have several options:
