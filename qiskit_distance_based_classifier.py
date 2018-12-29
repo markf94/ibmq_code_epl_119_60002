@@ -223,7 +223,7 @@ class DistanceBasedClassifier:
 
         if prob_class0 > prob_class1:
             return 0
-        elif prob_class < prob_class1:
+        elif prob_class0 < prob_class1:
             return 1
         else:
             return 'inconclusive. 50/50 results'
