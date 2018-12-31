@@ -16,7 +16,7 @@ This modern rewrite of the quantum assembly code is meant for educational purpos
 """
 
 from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister
-from qiskit import execute, Aer
+from qiskit import execute, BasicAer
 
 class DistanceBasedClassifier:
 
@@ -245,7 +245,7 @@ if __name__ == "__main__":
 
     print(f"Classifying x' = {x_prime} with noisy simulator backend")
     class_result = classifier.classify(test_vector=x_prime, training_set=training_set)
-    print(f"Test vector x' was classified as class {class_result}\n")
+    print(f"Test vector x'' was classified as class {class_result}\n")
 
     print('===============================================\n')
 
