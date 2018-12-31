@@ -130,7 +130,7 @@ class DistanceBasedClassifier:
         """
 
         # noisy simulation
-        backend_sim = Aer.get_backend('qasm_simulator')
+        backend_sim = BasicAer.get_backend('qasm_simulator')
 
         job_sim = execute(quantum_circuit, backend_sim)
 
